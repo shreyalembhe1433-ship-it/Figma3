@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading-box{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 98vh;
+    position: relative;
+}
+.vector{
+    position: absolute;
+    width: 30vw;
+    height: 100vh;
+    right: 0;
+    top: -1em;
+}
+.heading{
+    /* border: 1px solid red; */
+    width: 70vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    /* border: 1px solid purple; */
+    width: 10vw;
+    height: 5vh;
+    color: #1E0E62;
+}
+.info{
+    /* border: 1px solid purple; */
+    width: 12vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #15143966;
+}
+.box1{
+    /* border: 1px solid purple; */
+    width: 70vw;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.great-tool{
+    /* border: 1px solid red; */
+    width: 42%;
+    height: 30%;
+}
+.button{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 30%;
+    padding-left: 7em;
+}
+.get{
+   padding-top: 1.5em;
+   padding-bottom: 1.5em;
+   padding-left: 2em;
+   padding-right: 2em;
+   border: none;
+   background-color: #25DAC5; 
+   border-radius: 2em;
+}
+.set{
+   padding-top: 1.5em;
+   padding-bottom: 1.5em;
+   padding-left: 2em;
+   padding-right: 2em;
+   border: 1px solid #EBEAED;
+   background: none;
+   border-radius: 2em;
+   margin-left: 1em;
+}
+.about{
+     /* border: 2px solid black; */
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/image/f7e8f8e282f037bd55e52d4b954227648e8bf9ff.jpg");
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature{
+     /* border: 2px solid black; */
+    width: 40vw;
+    height: 30vh;
+    color: #FFFFFF;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.boxes{
+    /* border: 2px solid black; */
+    width: 65vw;
+    height: 50vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    border: 1px solid #FFFFFF;
+    width: 30%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border-radius: 0.5em;
+}
+.btn{
+     background-color: #E93A7D;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     padding-left: 2em;
+     padding-right: 2em;
+     border: none;
+     border-radius: 2em;
+}
+.information{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.awesome{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.client{
+    /* border: 1px solid red; */
+    width: 70vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    border: 1px solid #EBEAED;
+    width: 30%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    /* border-radius: 0.5em; */
+}
+.client-image{
+    width: 45%;
+    height: 45%;
+    clip-path: circle();
+    object-fit: cover;
+}
+.click{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 20%;
+     display: flex;
+    justify-content: space-between;
+
+}
+.click img{ 
+    height: 63%;
+    width: 10%;
+    border: 1px solid #EBEAED;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    padding-left: 2.5em;
+    padding-right: 2.6em;
+}
+.bottom{
+    width: 100vw;
+    height: 30vh;
+    background-color: #1E0E62;
+    flex-direction: column;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 1em;
+}
+.service{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
